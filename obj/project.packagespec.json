@@ -1,0 +1,69 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/brandone.martins/Workspace/BlazorStartingApp/BlazorStartingApp.csproj",
+    "projectName": "BlazorStartingApp",
+    "projectPath": "/Users/brandone.martins/Workspace/BlazorStartingApp/BlazorStartingApp.csproj",
+    "outputPath": "/Users/brandone.martins/Workspace/BlazorStartingApp/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Components.WebAssembly": {
+          "target": "Package",
+          "version": "[3.2.0-preview4.20210.8, )"
+        },
+        "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.2.0-preview4.20210.8, )"
+        },
+        "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.2.0-preview4.20210.8, )"
+        },
+        "System.Net.Http.Json": {
+          "target": "Package",
+          "version": "[3.2.0-preview5.20210.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "NETStandard.Library": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+    }
+  }
+}
